@@ -1,0 +1,97 @@
+body {
+    background: #E6FAFC ;
+    margin: 0px ;
+    padding: 0px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header {
+    background: #2BC016 ;
+    color: #152614 ;
+    margin: 0px ;
+    padding: 0px ;
+    height: 150px ;
+}
+
+header h1 {
+    margin: 0px auto ;
+    line-height: 150px ;
+    margin-top: -2px ;
+    margin-left: 10% ;
+}
+
+.title {
+    display: block ;
+    width: 60% ;
+    float: left ;
+}
+
+.menu {
+    display: block ;
+    float: right ;
+    width: 40% ;
+    height: 100% ;
+}
+
+.menu ul {
+    margin: 0px auto ;
+    margin-top: -2px ;
+}
+
+.menu ul li {
+    display: inline-block ;
+    line-height: 150px ; 
+    margin-right: 20px ;
+    margin-left: 20px ;
+}
+
+.menu ul li a {
+    text-decoration: none ;
+    color: #E6FAFC ;
+    transition: 100ms all ;
+}
+
+.menu ul li a:hover {
+    color: #152614 ;
+}
+
+.clearfix {
+    clear: both ;
+    float: none ;
+}
+
+section {
+    padding: 5% ;
+}
+
+footer {
+    width: 100% ;
+    position: fixed ;
+    bottom: 0 ;
+    right: 0 ;
+    left: 0 ;
+    background: #345830 ;
+    text-align: center ;
+}
+
+footer ul {
+    margin: 0px auto ;
+    margin-top: -2px ;
+}
+
+footer ul li {
+    display: inline-block ;
+    line-height: 100px ; 
+    margin-right: 50px ;
+    margin-left: 50px ;
+}
+
+footer ul li a {
+    text-decoration: none ;
+    color: #D9FED7 ;
+    transition: 100ms all ;
+}
+
+footer ul li a:hover {
+    color: #2BC016 ;
+}
