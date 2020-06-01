@@ -7,7 +7,7 @@ body {
 
 header {
     background: #2BC016 ;
-    color: #152614 ;
+    color: #0B1D18 ;
     margin: 0px ;
     padding: 0px ;
     height: 150px ;
@@ -67,6 +67,11 @@ section {
 
 .content h2 {
     font-size: 24px ;
+}
+
+.content a {
+    text-decoration: none ;
+    color: black ;
 }
 
 footer {
