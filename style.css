@@ -3,14 +3,16 @@ body {
     margin: 0px ;
     padding: 0px ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: #020402 ;
 }
 
 header {
     background: #2BC016 ;
-    color: #152614 ;
+    color: #020402 ;
     margin: 0px ;
     padding: 0px ;
     height: 150px ;
+    border-bottom: 1px solid #345830 ;
 }
 
 header h1 {
@@ -48,7 +50,7 @@ header h1 {
 .menu ul li a {
     text-decoration: none ;
     color: #E6FAFC ;
-    transition: 100ms all ;
+    transition: 200ms all ;
 }
 
 .menu ul li a:hover {
@@ -67,6 +69,16 @@ section {
 
 .content h2 {
     font-size: 24px ;
+}
+
+.content a {
+    text-decoration: none ;
+    color: #345830 ;
+    transition: 200ms all ;
+}
+
+.content a:hover {
+    color: #2BC016 ;
 }
 
 footer {
@@ -94,7 +106,7 @@ footer ul li {
 footer ul li a {
     text-decoration: none ;
     color: #D9FED7 ;
-    transition: 100ms all ;
+    transition: 200ms all ;
 }
 
 footer ul li a:hover {
