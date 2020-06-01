@@ -2,7 +2,7 @@ body {
     background: #E6FAFC ;
     margin: 0px ;
     padding: 0px ;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
 
 header {
@@ -61,7 +61,12 @@ header h1 {
 }
 
 section {
-    padding: 5% ;
+    width: 70% ;
+    margin: 40px auto ;
+}
+
+.content h2 {
+    font-size: 24px ;
 }
 
 footer {
