@@ -220,10 +220,62 @@ footer ul li a:hover {
     }
 }
 
+@media (max-width: 506px) {
+    .links {
+        margin-right: -10px ;
+        margin-left: -10px ;
+    }
+    
+    .links a {
+        margin: 10px 4% ;
+    }
+}
+
 @media (max-width: 427px) {
+    header {
+        height: 80px ;
+    }
+
+    header h1 {
+        line-height: 50px ;
+        height: 50px ;
+        padding: 0px ;
+        padding-top: 3px ;
+    }
+
+    .title {
+        height: 50px ;
+    }
+
+    .menu {
+        height: 30px ;
+    }
+
+    .menu ul li {
+        line-height: 30px ;
+    }
+
+    section {
+        margin-top: 30px ;
+    }
+
+    .links {
+        margin-bottom: 20px ;
+    }
+    
+    .links a {
+        display: block ;
+    }
+
     footer ul li {
         line-height: 40px ;
         width: 40% ;
         margin: 0px auto ;
+    }
+}
+
+@media (max-width: 384px) {
+    .menu ul li {
+        margin: 0px 4% ;
     }
 }
