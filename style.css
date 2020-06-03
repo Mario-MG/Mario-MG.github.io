@@ -1,17 +1,19 @@
 body {
-    background: #E6FAFC ;
+    background: #EFFBF2 ;
     margin: 0px ;
     padding: 0px ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    color: #020402 ;
+    color: #0B0A0A ;
 }
 
 header {
-    background: #2BC016 ;
+    background: #201E1F ;
     margin: 0px ;
     padding: 0px ;
     height: 150px ;
-    border-bottom: 1px solid #345830 ;
+    border-bottom: 1px solid #F18F01 ;
+    border-top: 2px solid #F18F01 ;
+    color: #EFFBF2 ;
 }
 
 header h1 {
@@ -49,12 +51,13 @@ header h1 {
 
 .menu ul li a {
     text-decoration: none ;
-    color: #E6FAFC ;
+    color: #EFFBF2 ;
     transition: 200ms all ;
 }
 
 .menu ul li a:hover {
-    color: #152614 ;
+    color: #F18F01 ;
+    text-shadow: 0 0 1.5px #F18F01, 0 0 1.5px #F18F01;
 }
 
 .clearfix {
@@ -74,9 +77,9 @@ section {
 }
 
 .links a {
-    background-color: #345830 ;
-    color: #2BC016 ;
-    border: 1px solid #345830 ;
+    background-color: #248232 ;
+    color: #EFFBF2 ;
+    border: 1px solid #201E1F ;
     text-decoration: none ;
     padding: 10px 15px ;
     margin: 10px 30px ;
@@ -85,8 +88,9 @@ section {
 }
 
 .links a:hover {
-    background-color: white ;
-    color: #345830 ;
+    background-color: #294936 ;
+    color: #F18F01 ;
+    text-shadow: 0 0 1.5px #F18F01, 0 0 1.5px #F18F01;
 }
 
 .content h2 {
@@ -105,12 +109,13 @@ section {
 
 .content a {
     text-decoration: none ;
-    color: #345830 ;
+    color: #248232 ;
     transition: 200ms all ;
 }
 
 .content a:hover {
-    color: #2BC016 ;
+    color: #F18F01 ;
+    text-shadow: 0 0 .5px #F18F01, 0 0 .5px #F18F01;
 }
 
 .content strong.lesser {
@@ -123,7 +128,7 @@ footer {
     bottom: 0 ;
     right: 0 ;
     left: 0 ;
-    background: #345830 ;
+    background: #294936 ;
     text-align: center ;
 }
 
@@ -135,34 +140,40 @@ footer ul {
 
 footer ul li {
     display: inline-block ;
-    line-height: 100px ; 
+    line-height: 80px ; 
     margin-right: 50px ;
     margin-left: 50px ;
 }
 
 footer ul li a {
     text-decoration: none ;
-    color: #D9FED7 ;
+    color: #EFFBF2 ;
     transition: 200ms all ;
 }
 
 footer ul li a:hover {
-    color: #2BC016 ;
+    color: #F18F01 ;
+    text-shadow: 0 0 1px #F18F01, 0 0 1px #F18F01;
 }
 
 /* RESPONSIVE */
 
-@media (max-width: 707px) {
+@media (max-width: 740px) {
     .title {
         clear: both ;
         float: none ;
         width: 100% ;
+        height: 70px ;
         margin: 0px auto ;
+    }
+
+    header {
+        height: 120px ;
     }
 
     header h1 {
         margin: 0px auto ;
-        line-height: 80px ;
+        line-height: 70px ;
         margin-top: 0px ;
         padding-top: 10px ;
         text-align: center ;
@@ -171,7 +182,7 @@ footer ul li a:hover {
     .menu {
         clear: both ;
         width: 100% ;
-        height: 60px ;
+        height: 50px ;
         margin: 0px auto ;
         text-align: center ;
     }
@@ -183,38 +194,22 @@ footer ul li a:hover {
     }
 
     .menu ul li {
-        line-height: 60px ;
+        line-height: 50px ;
     }
 
     footer ul li {
         margin-right: 7% ;
         margin-left: 7% ;
     }
+
 }
 
-@media (max-width: 607px) {
-    header {
-        height: 120px ;
-    }
-
-    header h1 {
-        line-height: 60px ;
-    }
-
-    .menu {
-        height: 50px ;
-    }
-
-    .menu ul li {
-        line-height: 50px ;
-    }
-
+@media (max-width: 615px) {
     section {
         width: 85% ;
     }
     
     footer ul li {
-        line-height: 80px ;
         margin-right: 20px ;
         margin-left: 20px ;
     }
