@@ -34,8 +34,8 @@ header h1 {
     }
     100% {
         text-shadow: 0 0 2px #F18F01, 0 0 2px #F18F01, 0 0 4px #F18F01, 
-        0 0 4px #F18F01, 0 0 4px #F18F01, 0 0 8px #F18F01,
-        0 0 8px #F18F01, 0 0 8px #F18F01, 0 0 8px #F18F01;
+                0 0 4px #F18F01, 0 0 4px #F18F01, 0 0 8px #F18F01,
+                0 0 8px #F18F01, 0 0 8px #F18F01, 0 0 8px #F18F01;
     }
 }
 
@@ -151,7 +151,7 @@ footer {
 footer ul {
     margin: 0px auto ;
     padding: 0px ;
-    margin-top: -2px ;
+    border-top: 1px solid #248232 ;
 }
 
 footer ul li {
