@@ -21,7 +21,22 @@ header h1 {
     line-height: 150px ;
     margin-top: -2px ;
     margin-left: 50px ;
-    text-shadow: 0 0 2px #F18F01, 0 0 4px #F18F01, 0 0 4px #F18F01;
+    text-shadow: 0 0 2px #F18F01, 0 0 2px #F18F01, 0 0 4px #F18F01;
+    animation: shadow 5s linear 0s infinite alternate;
+}
+
+@keyframes shadow {
+    0% {
+        text-shadow: 0 0 2px #F18F01, 0 0 2px #F18F01, 0 0 4px #F18F01;
+    }
+    80% {
+        text-shadow: 0 0 2px #F18F01, 0 0 2px #F18F01, 0 0 4px #F18F01;
+    }
+    100% {
+        text-shadow: 0 0 2px #F18F01, 0 0 2px #F18F01, 0 0 4px #F18F01, 
+        0 0 4px #F18F01, 0 0 4px #F18F01, 0 0 8px #F18F01,
+        0 0 8px #F18F01, 0 0 8px #F18F01, 0 0 8px #F18F01;
+    }
 }
 
 .title {
