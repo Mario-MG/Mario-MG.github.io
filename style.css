@@ -150,13 +150,12 @@ footer {
 
 footer ul {
     margin: 0px auto ;
-    padding: 0px ;
+    padding: 20px 0px ;
     border-top: 1px solid #248232 ;
 }
 
 footer ul li {
     display: inline-block ;
-    line-height: 80px ; 
     margin-right: 50px ;
     margin-left: 50px ;
 }
@@ -170,6 +169,19 @@ footer ul li a {
 footer ul li a:hover {
     color: #F18F01 ;
     text-shadow: 0 0 1px #F18F01, 0 0 1px #F18F01;
+}
+
+footer span {
+    display: block ;
+}
+
+footer ul li a img {
+    width: 20px ;
+    transition: 200ms all ;
+}
+
+footer ul li a:hover img {
+    filter: invert(50%) sepia(100%) saturate(1237%) hue-rotate(-26deg) brightness(118%) contrast(119%);
 }
 
 /* RESPONSIVE */
@@ -217,7 +229,6 @@ footer ul li a:hover {
         margin-right: 7% ;
         margin-left: 7% ;
     }
-
 }
 
 @media (max-width: 615px) {
@@ -231,22 +242,79 @@ footer ul li a:hover {
     }
 }
 
-@media (max-width: 506px) {
-    .links {
-        margin-right: -10px ;
-        margin-left: -10px ;
+@media (max-height: 639px) {
+    header {
+        height: 100px ;
+    }
+
+    header h1 {
+        line-height: 100px ;
+    }
+
+    .menu ul li {
+        line-height: 100px ;
+    }
+}
+
+@media (max-width: 740px) and (max-height: 639px) {
+    header {
+        height: 100px ;
+    }
+
+    .title {
+        height: 60px ;
+    }
+
+    header h1 {
+        margin: 0px auto ;
+        line-height: 60px ;
+        margin-top: 0px ;
+        padding-top: 0px ;
+        text-align: center ;
+    }
+
+    .menu {
+        clear: both ;
+        width: 100% ;
+        height: 40px ;
+        margin: 0px auto ;
+        text-align: center ;
+    }
+
+    .menu ul {
+        float: none ;
+        margin: 0px auto ;
+        padding: 0px ;
+    }
+
+    .menu ul li {
+        line-height: 40px ;
+    }
+}
+
+@media (max-width: 506px), (max-height: 570px) {
+    .links a {
+        margin: 10px 3% ;
+    }
+
+    footer {
+        margin-bottom: -23px ;
     }
     
-    .links a {
-        margin: 10px 4% ;
+    footer .link-text {
+        visibility: hidden ;
+    }
+
+    footer ul li {
+        width: 20% ;
+        margin: auto ;
     }
 }
 
 @media (max-width: 427px) {
-
-
     section {
         margin-top: 30px ;
+        margin-bottom: 40px ;
     }
 
     .links {
@@ -257,23 +325,38 @@ footer ul li a:hover {
         display: block ;
     }
 
-    section {
-        margin-bottom: 40px ;
-    }
-
-    footer {
+    /*footer {
         position: relative ;
-    }
-
-    footer ul li {
-        line-height: 40px ;
-        width: 40% ;
-        margin: 0px auto ;
-    }
+    }*/
 }
 
 @media (max-width: 384px) {
     .menu ul li {
         margin: 0px 4% ;
+    }
+}
+
+@media (max-width: 329px) {
+    body {
+        zoom: 90%
+    }
+}
+
+@media (max-width: 329px) {
+    body {
+        zoom: 80%
+    }
+}
+
+@media (max-width: 263px) {
+    body {
+        zoom: 75%
+    }
+}
+
+@media (max-width: 247px) {
+    .menu ul li {
+        margin-right: 2% ;
+        margin-left: 2% ;
     }
 }
