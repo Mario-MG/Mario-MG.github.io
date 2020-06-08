@@ -175,7 +175,7 @@ footer span {
     display: block ;
 }
 
-footer ul li a img {
+.link-img img {
     width: 20px ;
     transition: 200ms all ;
 }
@@ -297,6 +297,10 @@ footer ul li a:hover img {
         margin: 10px 3% ;
     }
 
+    section {
+        margin-bottom: 90px ;
+    }
+
     footer {
         margin-bottom: -23px ;
     }
@@ -314,7 +318,7 @@ footer ul li a:hover img {
 @media (max-width: 427px) {
     section {
         margin-top: 30px ;
-        margin-bottom: 40px ;
+        margin-bottom: 100px ;
     }
 
     .links {
@@ -324,10 +328,6 @@ footer ul li a:hover img {
     .links a {
         display: block ;
     }
-
-    /*footer {
-        position: relative ;
-    }*/
 }
 
 @media (max-width: 384px) {
@@ -336,25 +336,98 @@ footer ul li a:hover img {
     }
 }
 
-@media (max-width: 329px) {
-    body {
-        zoom: 90%
+@media (max-width: 330px) {
+    header {
+        height: 90px ;
+    }
+
+    .title {
+        height: 54px ;
+    }
+
+    header h1 {
+        font-size: 28px ;
+    }
+
+    .menu {
+        height: 36px ;
+    }
+
+    .menu ul li {
+        line-height: 36px ;
+        font-size: 14px ;
+    }
+
+    section,
+    .content code {
+        font-size: 14px ;
+        margin-bottom: 80px ;
+    }
+
+    .content h2,
+    .content h2 pre {
+        font-size: 22px ;
+    }
+
+    .content h3 {
+        font-size: 16px ;
+    }
+
+    footer {
+        margin-bottom: -30px ;
+    }
+
+    footer ul {
+        padding-top: 14px ;
+    }
+
+    .link-img img {
+        width: 18px ;
     }
 }
 
-@media (max-width: 329px) {
-    body {
-        zoom: 80%
+@media (max-width: 284px) {
+    header {
+        height: 80px ;
+    }
+
+    .title {
+        height: 48px ;
+    }
+
+    header h1 {
+        font-size: 25px ;
+    }
+
+    .menu {
+        height: 32px ;
+    }
+
+    .menu ul li {
+        line-height: 32px ;
+        font-size: 13px ;
+    }
+
+    section,
+    .content code {
+        font-size: 13px ;
+    }
+
+    .content h2,
+    .content h2 pre {
+        font-size: 20px ;
+    }
+
+    .content h3 {
+        font-size: 15px ;
+    }
+
+    .link-img img {
+        width: 18px ;
     }
 }
 
-@media (max-width: 263px) {
-    body {
-        zoom: 75%
-    }
-}
-
-@media (max-width: 247px) {
+@media (max-width: 274px) {
     .menu ul li {
         margin-right: 2% ;
         margin-left: 2% ;
