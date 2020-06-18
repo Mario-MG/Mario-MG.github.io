@@ -139,20 +139,22 @@ section {
 }
 
 #badge-index {
-    width: 120px ;
     margin: 0 auto ;
     margin-top: 30px ;
 }
 
 #badge-bio {
-    width: 120px ;
     float: right ;
-    margin: 10px ;
-    margin-left: 20px ;
+    margin: 6px 10px 6px 20px ;
 }
 
+.badge,
 .badge img {
     max-width: 120px ;
+}
+
+.content ul li {
+    padding-bottom: 0.2em ;
 }
 
 footer {
@@ -318,6 +320,11 @@ footer ul li a:hover img {
         margin-bottom: 90px ;
     }
 
+    .badge,
+    .badge img {
+        max-width: 110px ;
+    }
+
     footer {
         margin-bottom: -23px ;
     }
@@ -345,15 +352,29 @@ footer ul li a:hover img {
     .links a {
         display: block ;
     }
+
+    .content ul {
+        padding-left: 1.5em ;
+    }
+
+    .badge,
+    .badge img {
+        max-width: 100px ;
+    }
 }
 
 @media (max-width: 384px) {
     .menu ul li {
         margin: 0px 4% ;
     }
+
+    .badge,
+    .badge img {
+        max-width: 90px ;
+    }
 }
 
-@media (max-width: 330px) {
+@media (max-width: 332px) {
     header {
         height: 90px ;
     }
@@ -390,13 +411,9 @@ footer ul li a:hover img {
         font-size: 16px ;
     }
 
-    #badge-index,
-    #badge-bio {
-        width: 100px ;
-    }
-
+    .badge,
     .badge img {
-        max-width: 100px ;
+        max-width: 80px ;
     }
 
     footer {
@@ -448,13 +465,9 @@ footer ul li a:hover img {
         font-size: 15px ;
     }
 
-    #badge-index,
-    #badge-bio {
-        width: 80px ;
-    }
-
+    .badge,
     .badge img {
-        max-width: 80px ;
+        max-width: 70px ;
     }
 
     .link-img img {
@@ -466,5 +479,10 @@ footer ul li a:hover img {
     .menu ul li {
         margin-right: 2% ;
         margin-left: 2% ;
+    }
+
+    .badge,
+    .badge img {
+        max-width: 60px ;
     }
 }
