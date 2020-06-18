@@ -138,6 +138,23 @@ section {
     font-weight: 500 ;
 }
 
+#badge-index {
+    width: 120px ;
+    margin: 0 auto ;
+    margin-top: 30px ;
+}
+
+#badge-bio {
+    width: 120px ;
+    float: right ;
+    margin: 10px ;
+    margin-left: 20px ;
+}
+
+.badge img {
+    max-width: 120px ;
+}
+
 footer {
     width: 100% ;
     position: fixed ;
@@ -373,6 +390,15 @@ footer ul li a:hover img {
         font-size: 16px ;
     }
 
+    #badge-index,
+    #badge-bio {
+        width: 100px ;
+    }
+
+    .badge img {
+        max-width: 100px ;
+    }
+
     footer {
         margin-bottom: -30px ;
     }
@@ -420,6 +446,15 @@ footer ul li a:hover img {
 
     .content h3 {
         font-size: 15px ;
+    }
+
+    #badge-index,
+    #badge-bio {
+        width: 80px ;
+    }
+
+    .badge img {
+        max-width: 80px ;
     }
 
     .link-img img {
